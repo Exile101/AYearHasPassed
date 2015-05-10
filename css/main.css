@@ -83,8 +83,18 @@ button:focus {
 	-moz-flex-direction: column;
 	-ms-flex-direction: column;
 	flex-direction: column;
+}/*
+img:hover
+{
+	transform:scale(1.02);
+	-webkit-transform:scale(1.02);
+	-moz-transform:scale(1.02);
+	-o-transform:scale(1.02);
+	transition:all 0.2s;
+	-webkit-transition:all 0.2s;
+	-moz-transition:all 0.2s;
+	-o-transition:all 0.2s;
 }
-
 /* Header */
 .codrops-header {
 	padding: 1em 0;

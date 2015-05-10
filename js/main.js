@@ -141,9 +141,9 @@
 			if( !canMoveHeroImage ) return false;
 			var xVal = -1/(win.height/2)*ev.clientY + 1,
 				yVal = 1/(win.width/2)*ev.clientX - 1,
-				transX = 20/(win.width)*ev.clientX - 10,
-				transY = 20/(win.height)*ev.clientY - 10,
-				transZ = 100/(win.height)*ev.clientY - 50;
+				transX = 15/(win.width)*ev.clientX - 10,
+				transY = 15/(win.height)*ev.clientY - 10,
+				transZ = 80/(win.height)*ev.clientY - 50;
 
 			imghero.style.WebkitTransform = 'perspective(1000px) translate3d(' + transX + 'px,' + transY + 'px,' + transZ + 'px) rotate3d(' + xVal + ',' + yVal + ',0,2deg)';
 			imghero.style.transform = 'perspective(1000px) translate3d(' + transX + 'px,' + transY + 'px,' + transZ + 'px) rotate3d(' + xVal + ',' + yVal + ',0,2deg)';
